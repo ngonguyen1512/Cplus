@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<title>COMBO NHÓM</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/x-icon" href="logo.png" />
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.3/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.9.3/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.9.3/dist/js/uikit-icons.min.js"></script>
+
+<head>
+    <style>
+        .header {
+            padding: 1.5em;
+            background-color: rgb(225, 58, 0);
+        }
+        
+        .header b a {
+            float: right;
+            padding: 0.5em;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .header img {
+            width: 20%;
+        }
+        
+        .menu ul {
+            list-style-type: none;
+            background-color: #fffacd;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .menu ul li {
+            display: inline-table;
+            position: relative;
+        }
+        
+        .menu li a {
+            text-decoration: none;
+            display: block;
+            color: #ff7f50;
+            padding: 1em 3em;
+            font-family: sans-serif;
+        }
+        
+        .menu ul li a:hover {
+            background-color: #f8f8ff;
+        }
+        
+        .main {
+            padding: 3em 7em;
+            background-color: #fdf5e6;
+        }
+        
+        .footer {
+            width: 100%;
+            background-color: rgb(225, 58, 0);
+            margin: 0 auto;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+        
+        .contact {
+            font-size: 1em;
+            text-align: center;
+            width: 30%;
+            float: left;
+            text-hieight: 100%;
+            color: white;
+            font-size: 1.3em;
+            padding-top: 2.2em;
+        }
+        
+        .info {
+            text-align: center;
+            width: 50%;
+            float: right;
+            color: white;
+            font-size: 1.2em;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        .intro {
+            padding: 3em 7em;
+        }
+        
+        .intro b {
+            border-left: 0.5em solid black;
+            padding: 0.5em;
+            font-size: 1.3em;
+            color: slateblue;
+        }
+        
+        .image {
+            width: 40%;
+            padding: 1.5em;
+            padding-bottom: 0.7em;
+        }
+        
+        .intro a {
+            text-decoration: none;
+            color: #c71585;
+        }
+        
+        .p {
+            color: red;
+            font-size: 1.5em;
+        }
+        
+        .button {
+            background-color: red;
+            border-radius: 3px;
+            border-color: red;
+            font-size: 1.em;
+            color: white;
+        }
+        
+        .table {
+            border-collapse: collapse;
+            border: 0px;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="#"><img src="logo.png" /></a>
+        <b><a href="">ĐĂNG NHẬP</a></b>
+        <b><a href="">ĐĂNG KÝ |</a></b>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <b><a href="http://127.0.0.1:5500/combo_1ng.html">COMBO 1 NGƯỜI</a></b>
+            </li>
+            <li>
+                <b><a href="http://127.0.0.1:5500/combo_nhom.html">COMBO NHÓM</a></b>
+            </li>
+            <li>
+                <b><a href="http://127.0.0.1:5500/menu_uudai.html">MENU ƯU ĐÃI</a></b>
+            </li>
+            <li>
+                <b><a href="http://127.0.0.1:5500/mon_le.html">MÓN LẺ</a></b>
+            </li>
+            <li>
+                <b><a href="#">ĐẶT HÀNG</a></b>
+            </li>
+            <li>
+                <span class="uk-margin-small-right"></span>
+                <b><a href="" uk-icon="cart">GIỎ HÀNG </a></b>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <table class="table">
+            <tr>
+                <td>
+                    <img src="https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/s/e/set-app-550x550px_familyset.png" alt="combo 1" />
+                    <b><p>Family set</p></b>
+                    <b><p class="p">242.000đ</p></b>
+                    <button class="button"><> Thêm vào giỏ hàng </</button>
+                </td>
+                <td>
+                    <img src="https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/s/e/set-app-550x550px_friendset1.png" alt="combo 2">
+                    <b><p> Friend set </p></b>
+                    <b><p class="p">180.000đ </p></b>
+                    <button class="button"><b> Thêm vào giỏ hàng </b></button>
+                </td>
+                <td>
+                    <img src="https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/s/e/set-app-550x550px_friendset2.png" alt="combo 3">
+                    <b><p> Friend set 2 </p></b>
+                    <b><p class="p">184.500đ </p></b>
+                    <button class="button"><b> Thêm vào giỏ hàng </b></button>
+                </td>
+
+
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/s/e/set-app-550x550px_specialset.png" alt="combo 4">
+                    <b><p> Special set </p></b>
+                    <b><p class="p">160.500đ </p></b>
+                    <button class="button"><b> Thêm vào giỏ hàng </b></button>
+                </td>
+                <td>
+                    <img src="https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/s/e/set-app-550x550px_coupleset1_1.png" alt="combo 5">
+                    <b><p> Couple set 1 </p></b>
+                    <b><p class="p">125.700đ </p></b>
+                    <button class="button"><b> Thêm vào giỏ hàng </b></button>
+                </td>
+                <td>
+                    <img src="https://dscnnwjxnwl3f.cloudfront.net/media/catalog/product/cache/584039753b87a8d227764e04fc461e3e/s/e/set-app-550x550px_coupleset2.png" alt="combo 6">
+                    <b><p> Couple set 2 </p></b>
+                    <b><p class="p">130.800đ </p></b>
+                    <button class="button"><b> Thêm vào giỏ hàng </b></button>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class=" footer ">
+        <div class="contact ">
+            <b>GIAO HÀNG TẬN NƠI<br />
+          1900 6886<br />
+          THỨC ĂN NHANH HPN</b
+        >
+        <br />
+      </div>
+      <div class="info ">
+        <b>CÔNG TY LIÊN DOANH TNHH HPN VIỆT NAM</b><br /> Số 292 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng, TP. Hà Nội.<br /> Điện thoại: (028) 38489828<br /> Email: lienhe@hpnvietnam.com.vn<br /> Mã số thuế: 0100773885<br /> Ngày cấp: 29/10/1998
+            - Nơi cấp: Cục Thuế Thành Phố Hà Nội<br />
+        </div>
+        <div class="clear "></div>
+    </div>
+</body>
+
+</html>
+
+</html>
+
+</html>
